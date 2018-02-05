@@ -15,4 +15,4 @@
 #import "UITabBarItem+RJBadge.h"
 #import "UIView+RJBadge.h"
 
-#endif /* RJBadgeKit_h */
+#endif /* RJBadgeKit_h 已经添加到lizhi自己的仓库上*/
