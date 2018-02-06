@@ -12,7 +12,7 @@
 #define kRJBadgeDefaultFont                ([UIFont boldSystemFontOfSize:9])
 #define kRJBadgeDefaultMaximumBadgeNumber  99
 
-static const CGFloat kRJBadgeDefaultRadius = 3.f;
+static const CGFloat kRJBadgeDefaultRadius = 5.f;
 
 @implementation UIView (RJBadge)
 
@@ -110,10 +110,7 @@ static const CGFloat kRJBadgeDefaultRadius = 3.f;
         CGRect rect   = CGRectMake(CGRectGetWidth(self.frame), -width, width, width);
         bLabel                 = [[UILabel alloc] initWithFrame:rect];
         bLabel.textAlignment   = NSTextAlignmentCenter;
-        bLabel.backgroundColor = [UIColor colorWithRed:  1.f
-                                                 green: 93.f/225.f
-                                                  blue:165.f/255.f
-                                                 alpha:1.f];
+        bLabel.backgroundColor = [UIColor redColor];
         bLabel.textColor       = [UIColor whiteColor];
         bLabel.text            = @"";
         CGFloat offsetX        = CGRectGetWidth(self.frame) + 2 + self.badgeOffset.x;

@@ -19,7 +19,7 @@
     
     NSString *demoPath        = @"root.pbdemo";
     
-    [RJBadgeController setBadgeForKeyPath:demoPath];
+//    [RJBadgeController setBadgeForKeyPath:demoPath];
     
     // set tab bar item red dot
     [self.badgeController observePath:demoPath badgeView:more block:nil];
